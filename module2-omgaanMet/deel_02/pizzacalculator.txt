@@ -1,0 +1,20 @@
+pizzacalculator.py
+
+#Nedja Duale opdracht: pizzaCalculator 
+
+pizzasmall= int (input ('hoeveel pizzasmall wilt u?'))
+pizzamedium= int (input ('hoeveel pizzamedium wilt u?'))
+pizzalarge= int (input ('hoeveel pizzalarge wilt u?'))
+
+
+prijssmall= pizzasmall * 4.99
+prijsmedium= pizzamedium * 6.99
+prijslarge= pizzalarge * 11.99
+
+totaal = prijssmall + prijsmedium + prijslarge 
+print (' ---------------------------------' )
+print ( f'| {prijssmall}')
+print ( f'| {prijsmedium}')
+print ( f'| {prijslarge}')
+print ( f'| -------------- =')
+print ( f'| {totaal} euro ')

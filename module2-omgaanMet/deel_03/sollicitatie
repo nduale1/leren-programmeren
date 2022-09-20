@@ -1,0 +1,53 @@
+# solliciatieform
+
+Geslacht= input ('Wat is uw geslacht?')
+Naam = input ('Wat is uw volledige naam?')
+Lengte = input ('Hoe lang bent u?')
+Gewicht = input ('Wat is uw gewicht?')
+Ervaring= input ('Waar heeft u ervaring in: dieren-dressuur, jongleren of Acrobatiek? ')
+Diploma= input ('Bent u in bezit van diploma mbo4 ondernemen?')
+rijbewijs= input ('Bent u in bezit van een geldige vrachtwagen rijbewijs?')
+certificaat= input ('Heeft u een certificaat voor werken met gevaarlijke personeel?')
+Hoge_hoed= input ('Bent u in het bezit van een hoge hoed?')
+
+if Geslacht == 'man':
+    snor = input ('heeft u een snor?')
+    if snor == 'ja':
+        snorbreedte= input ('hoe breed is uw snor?')
+        if snorbreedte >= 10:
+            Lengte = input ('Hoe lang bent u?')
+            if Lengte >= 150: 
+                Gewicht = input ('Wat is uw gewicht?')
+                if Gewicht >= 90:
+                    Ervaring = input ('Waar heeft u ervaring in: dieren-dressuur, jongleren of Acrobatiek? ')
+                    if Ervaring == 'jongleren':
+                        praktijkervaring1= ('Hoeveel jaar praktijkervaring heeft u met jongleren?')
+                        if praktijkervaring1 >= 5:
+                    if Ervaring == 'acrobatiek':
+                        praktijkervaring2 = ('Hoeveel jaar praktijkervaring heeft u met jongleren?')
+                        if praktijkervaring2 >= 3:
+                    if Ervaring == 'dieren-dresuur':
+                        Praktijkervaring3 = ('Hoeveel jaar praktijkervaring heeft u met dieren-dressuur?')
+                        if Praktijkervaring3 >= 4:
+                                    Hoge_hoed= input ('Bent u in het bezit van een hoge hoed?')
+                                    if Hoge_hoed == 'ja':
+                                        Diploma= input ('Bent u in bezit van diploma mbo4 ondernemen?')
+                                        if Diploma == 'ja':
+                                            rijbewijs= input ('Bent u in bezit van een geldige vrachtwagen rijbewijs?')
+                                            if rijbewijs == 'ja':
+                                                certificaat= input ('Heeft u een certificaat voor werken met gevaarlijke personeel?')
+                                                if certificaat == 'ja':
+
+
+else: 
+if Geslacht == 'vrouw':
+        Haar= input ('Heeft u rood haar?')
+        if Haar == 'rood':
+            Haar_type= ('Wat voor type haar heeft u? ')
+            if Haar_type == 'krullen': 
+                Haar_kleur= input ('Wat is uw haarkleur?')
+                if Haar_kleur == 'rood':
+                    Haar_lengte= input ('Wat is uw haar lengte?')
+                    if Haar_lengte >= 10: 
+                        if Lengte >= 150:
+                            print('test')
