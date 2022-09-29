@@ -1,0 +1,7 @@
+Kip ren weg!
+
+Het gaat over een kip die weg is gelopen en verschillende obstakels moet doorstaan. 
+
+Hoe verder je kip komt, hoe meer elementen je unlockt. Je blijft in dezelfde wereld alleen komen er dingen bij, zoals bergen.
+
+Als je het object aanraakt die bij de obstakels horen, verlies je automatisch. Dan begin je helemaal opnieuw.
