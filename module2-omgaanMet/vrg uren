@@ -1,0 +1,8 @@
+#voer in als uren en minuten
+Tijduur= int (input ('hoelaat is het nu in uren?:'))
+Tijdm= int (input ('hoelaat is het nu in minuten?:'))
+Tijdmin= Tijdm / 60 
+Huidigetijd=  Tijduur + Tijdmin
+Hoelang_het_nog_duurt= Huidigetijd - 24.00 
+round (round Hoelang_het_nog_duurt =< 1)
+print (f'Dan duurt het nog {Hoelang_het_nog_duurt}, uur voordat de dag voorbij is')

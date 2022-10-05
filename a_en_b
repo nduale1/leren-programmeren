@@ -1,0 +1,23 @@
+3
+GetalA= int (input ('Aan welke cijfer denkt u voor getalA?'))
+GetalB= int (input ('Aan welke cijfer denkt u voor getalB?'))
+
+
+if GetalA > GetalB:
+    Max = GetalA
+    Min = GetalB 
+    print (f' Getal A is het grootste getal : {Max}')
+
+elif GetalA < GetalB:
+    Max = GetalB
+    Min = GetalA 
+    print (f' Getal A is het kleinste getal : {Min}')
+
+else:
+    print ('Getal A en GetalB zijn even groot.')
+    Max = GetalA
+    Min = GetalB 
+
+
+print (f'Het minimum is: {Min}')
+print (f'Het maximum is: {Max}')
