@@ -5,13 +5,15 @@ print('Hallo', name)
 
 
 favoriteSeason = input ( 'Wat is jouw favorite seizoen? a) Lente, b) Zomer, c) Herfst of d) Winter')
-if favoriteSeason == 'a': 
+answer = favoriteSeason.lower()
+
+if answer == 'a': 
     print("Ik hou ook van de lente!")
-elif favoriteSeason == 'b':
+elif answer == 'b':
     print("De zomer is voor mij te warm.") 
-elif favoriteSeason == 'c':
+elif answer == 'c':
     print("Mooi he, al die blaadjes die dan van de boom vallen.")
-elif favoriteSeason == 'd':
+elif answer == 'd':
     print("Is de winter niet erg koud?")
 else:
     print("Die ken ik niet...")
