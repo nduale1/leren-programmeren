@@ -1,0 +1,19 @@
+
+Right > The floor creeks and emmediatly you hear foot staps running towards you.
+        You look behind and see that there is infact a zombie running towards you.
+        You have to be fast and see two objects on the ground. A Teddybear and A ruler.
+         
+
+
+left> You go to the left. The light goes out and you can't see anything. 
+      You try to use your other insticts such as feeling things, But unfortunally you hand goes in the mouth of 
+      a zombie and you get infected.
+           >>YOU LOSE<< 
+
+NEXT STEP:
+
+You
+
+
+
+
