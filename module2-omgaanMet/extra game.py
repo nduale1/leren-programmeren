@@ -9,9 +9,9 @@ def fprint(str, delay = 0):
 
 
 
-def displayintro ():
+def displayintro():
     fprint("It has been a year since the zombie apocalypse started",2)
-    fprint ("You have been through a lot",2)
+    fprint ("You have been through a lot",2) 
     fprint ("You ended up alone in a forest and you have to find a way to survive.",2)
     fprint("After walking for a day you finally see a house.",2)
 
@@ -69,41 +69,51 @@ def gameover(title):
 
 
 displayintro()
+
 house = choosehouse()
 correcthouse = checkhouse(house)
-if correcthouse == True:
+while correcthouse == True:
     fprint ("You picked the right choice. The zombies didn't hear you and you arrived at the house safely",2)
-else:
-    gameover("You go back and there was a zombie waiting for you outside, and attacks you immediatly.")
-    exit()
-
-
-
-room1()
-direction = ChooseRoom()
-correctroom = checkroom(direction)
-if ChooseRoom == True:
-    fprint("""The floor creeks and emmediatly you hear foot staps running towards you.
+    room1()
+    direction = ChooseRoom()
+    correctroom = checkroom(direction)
+    if ChooseRoom == True:
+     fprint("""The floor creeks and emmediatly you hear foot staps running towards you.
         You look behind and see the zombie is about to jump on you.
         You have to be fast and try to fight the zombie off of you.""")
-    rescued()
-           
+     rescued()          
+    else:
+        gameover ("""You go to the left. The light goes out and you can't see anything. 
+        You try to use your other insticts such as feeling things, But unfortunally you hand goes in the mouth of 
+        a zombie and you get infected.""")   
+        PlayAgain = input( "do you want to play again?")
+        if PlayAgain == "yes" or "y":
+         displayintro()
+         choice = choosehouse()
+    checkhouse(choice)      
 else:
-    gameover ("""You go to the left. The light goes out and you can't see anything. 
-      You try to use your other insticts such as feeling things, But unfortunally you hand goes in the mouth of 
-      a zombie and you get infected.""")
-    exit()
+    gameover("You go back and there was a zombie waiting for you outside, and attacks you immediatly.")
+    PlayAgain = input( "do you want to play again?")
+    if PlayAgain == "yes" or "y":
+     displayintro()
+     choice = choosehouse()
+    checkhouse(choice) 
+
+
 
 rescued()
 victory()
 
 
 
-# PlayAgain = input( "do you want to play again?")
-# while PlayAgain == "yes" or "y":
-#     displayintro()
-#     choice = choosehouse()
-#     checkhouse(choice)
+PlayAgain = input( "do you want to play again?")
+while PlayAgain == "yes" or "y":
+    displayintro()
+    choice = choosehouse()
+    checkhouse(choice) 
+#while 
+
+
     
 
 
