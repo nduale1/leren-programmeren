@@ -1,8 +1,10 @@
-stap= 0
-start= 50
-	 
-while stap <=1000:
-    stap += 1
-    totaal = start + stap
-    print( f"{start} + {stap}= {totaal}") 
-	
+t = 50
+s= 50
+answer = 50
+while answer < 1000:
+    t= t + 1
+    s= s + t
+    answer = answer + t
+    print( f"{s} = {answer}") 
+
+# notitie

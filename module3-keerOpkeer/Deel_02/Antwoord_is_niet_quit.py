@@ -1,6 +1,6 @@
-counter = 0
+Aantal_keer = 0
 while True:
-   counter += 1
+   Aantal_keer += 1
    vraag= input(print("?"))
    if vraag == "quit":
-    print(f"Je hebt {counter} keer geraden tot je het goede antwoord had.")
+    print(f"Je hebt {Aantal_keer} keer geraden tot je het goede antwoord had.")
