@@ -8,11 +8,12 @@ for x in type:
     for j in bijzonder:
         deck.append(f"{x} {j}")
     for P in range (2,10,1):
-        deck.append(f"{x}{P}")
+        deck.append(f"{x} {P}")
 
 random.shuffle(deck)
-for s in range(1,8):
-    kaart = random.choice(deck)
+for s in range(0,8): 
+    kaart = deck.pop(0)
+    # print (f"{deck}")
     print(f"kaart {s}: {kaart}")
-    deck.remove(kaart)
-print (f" deck (47 kaarten): {deck}")
+    # deck.remove(kaart)
+print (f" deck (47 kaarten): {deck}") 

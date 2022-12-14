@@ -6,11 +6,14 @@ while True:
         break 
 
 
-    product = input ("Welke product wilt u toevoegen?")
+    product = input ("Welke product wilt u toevoegen?").lower()
     Aantal = int(input (f"Hoeveel {product} wilt u?"))
 
     if product not in boodschappentas:
-        boodschappentas.update({product : Aantal})
+        boodschappentas [product] = Aantal
+    else:
+        boodschappentas [product] += Aantal
+
 
 print ("---[boodschappenlijst]---")
 for keys, value in boodschappentas.items():

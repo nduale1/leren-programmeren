@@ -25,7 +25,7 @@ for x in reversed (Days):
 print()
 
 print("Werkdagen in omgekeerde volgorde: ")
-for x in reversed(Days[0:5]):
+for x in Days[4::-1]:
     print(x)
 
 print()

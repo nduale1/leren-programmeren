@@ -9,3 +9,6 @@ set = (random.choices(kleur, k= Aantal))
 
 print("Er zijn m&m's toegevoegd aan")
 print (set) 
+
+# for x in range (Aantal):
+#    set.append(random.choice(kleur))
